@@ -1,0 +1,28 @@
+task-management-api/
+├── src/
+│   ├── main/
+│   │   ├── java/
+│   │   │   └── com/
+│   │   │       └── example/
+│   │   │           └── taskmanagement/
+│   │   │               ├── controller/
+│   │   │               │   ├── AuthController.java
+│   │   │               │   └── TaskController.java
+│   │   │               ├── model/
+│   │   │               │   ├── User.java
+│   │   │               │   └── Task.java
+│   │   │               ├── repository/
+│   │   │               │   ├── UserRepository.java
+│   │   │               │   └── TaskRepository.java
+│   │   │               ├── service/
+│   │   │               │   ├── AuthService.java
+│   │   │               │   └── TaskService.java
+│   │   │               └── security/
+│   │   │                   ├── SecurityConfig.java
+│   │   │                   └── JwtUtil.java
+│   │   └── resources/
+│   │       ├── application.properties
+│   │       └── docker/
+│   │           ├── Dockerfile
+│   │           └── docker-compose.yml
+└── pom.xml
